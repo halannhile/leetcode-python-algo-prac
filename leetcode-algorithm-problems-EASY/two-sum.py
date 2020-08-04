@@ -8,7 +8,8 @@ def twoSum(nums, target):
     :type target: int
     :rtype: List[int]
     """
-    h = {} # dictionary: https://discuss.codecademy.com/t/i-dont-get-what-is-the-difference-between-and-in-python/46479
+    h = {} # dictionary: https://www.pythonforbeginners.com/dictionary/how-to-use-dictionaries-in-python#:~:text=About%20Dictionaries%20in%20Python,with%20commas%20%2C%20between%20each%20pair.&text=As%20with%20lists%20we%20can,printing%20the%20reference%20to%20it.,
+           # https://discuss.codecademy.com/t/i-dont-get-what-is-the-difference-between-and-in-python/46479
     for i, num in enumerate(nums): # on enumerate(): https://book.pythontips.com/en/latest/enumerate.html
         n = target - num
         if n not in h:
