@@ -160,12 +160,3 @@ return False if x < 0 else x == int(str(x)[::-1])
 
 
 
-"""
-alternative approach 2: 
-
-
-"""
-
-
-
-
