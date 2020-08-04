@@ -33,3 +33,7 @@ print(reverse(x))
 
 y = -2894728
 print(reverse(y))
+
+
+# additional resource:
+# https://www.youtube.com/watch?v=XpvNcex-rc0&feature=youtu.be
