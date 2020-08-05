@@ -62,6 +62,21 @@ def twoSum(nums, target):
 
 
 
+"""
+alternative approach 4: 
+
+def twoSum(self, nums, target):
+    if len(nums) <= 1:
+        return False
+    buff_dict = {}
+    for i in range(len(nums)):
+        if nums[i] in buff_dict:
+            return [buff_dict[nums[i]], i]
+        else:
+            buff_dict[target - nums[i]] = i
+"""
+
+
 # testing:
 
 nums = [2,7,11,15]
