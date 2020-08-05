@@ -65,7 +65,7 @@ def twoSum(nums, target):
 """
 alternative approach 4: 
 
-def twoSum(self, nums, target):
+def twoSum(nums, target):
     if len(nums) <= 1:
         return False
     buff_dict = {}
